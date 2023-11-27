@@ -1,0 +1,11 @@
+1. Student class - using regex
+	- properties email, password
+	- Patterns mail and pass
+	- constructor, setting values to the properties
+	- getters and setters for all properties
+
+2. WrongMailException class (extends Exception) - custom implemented Exception
+
+3. WrongPasswordException class (extends Exception) - custom implemented Exception
+
+4. StartUp class - testing of the Student regex functionality and exceptions

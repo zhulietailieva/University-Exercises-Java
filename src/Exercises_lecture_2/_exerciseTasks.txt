@@ -1,0 +1,32 @@
+1. Car class
+	- properties brand, model, color, power, engineType, transmissionType and yearOFProduction
+	- empty constructora and constructor, initializing all properties
+	- getters and setters for each property
+	- filterByBrand(Car[] cars, char letter) - filters the cars with first given letter
+	- sortByBrand(Car[] cars, boolean ascending) - sort the cars ascending or descending
+	- removeDuplicateCars(Car[] cars) - removes duplicate cars
+	
+2. StartUp class - testing the Car class methods
+
+3. Company class
+	-properties name, date and bul
+	-constuctor, initializing all properties
+	-getters and setters for each peoperty
+	
+4. FirmET class (extends Company)
+	- properties founder, startCapital, currentCapital
+	- constructor
+	- getters and setters for each property
+	- Profit() - returns the current profit of the firm
+
+5. Person class
+	- properties name and age
+	- constuctor, initializing all properties
+	- getters and setters (age can only be set in the constructor)
+	- sayInfo() - prints information about the person
+
+6. Worker class (extends Person)
+	- property salary
+	- constuctor, initializing all properties
+	- getters and setters for each property
+	- override method SayInfo()

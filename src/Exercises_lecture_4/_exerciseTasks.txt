@@ -1,0 +1,12 @@
+1. User class
+	- properties name and password
+	- constructor, initializing all properties
+	- getters and setters
+		- setter for username throws null and empty exceptions
+		- setter for password throws null and empty exceptions
+
+2. UserEmptyException class (extends Exception) - custom implemented Exception
+
+2. UserNullException class (extends Exception) - custom implemented Exception
+
+3. StartUp class - testing User functionality and exceptions

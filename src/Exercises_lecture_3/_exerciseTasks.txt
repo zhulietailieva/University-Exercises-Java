@@ -1,0 +1,16 @@
+1. Figure interface
+	-CalculateArea()
+
+2. Rectangle class implements Figure
+	- properties a, b (length, width)
+	- constructor, initializing all properties
+	- getters and setters for properties
+	- Override public float CalculateArea() - returns area of the rectangle
+
+3. Circle class implements Figure
+	- properties radius
+	- constructor, initializing the property
+	- getter and setter for radius
+	- Override public float CalculateArea() - returns area of the circle
+
+4. StartUp class - testing Rectangle and Circle functionality 
